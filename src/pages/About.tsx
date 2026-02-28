@@ -71,6 +71,34 @@ export default function About() {
       </section>
 
       <section className="space-y-4">
+        <h2 className="text-xl font-semibold text-gray-200">Project Umbrella</h2>
+        <div className="bg-gray-900/50 rounded-xl border border-gray-800 p-6 space-y-3 text-gray-400 leading-relaxed">
+          <p>
+            This atlas is part of the <a href="https://biodynai.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">BioDyn AI project umbrella</a>, focused on mechanistic interpretability for biological foundation models.
+          </p>
+          <p>
+            Main project website:{' '}
+            <a href="https://biodynai.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+              biodynai.com
+            </a>
+          </p>
+          <p>Atlas websites in this umbrella:</p>
+          <ul className="list-disc list-inside space-y-1 text-sm">
+            <li>
+              <a href="https://biodyn-ai.github.io/geneformer-atlas/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                Geneformer Atlas
+              </a>
+            </li>
+            <li>
+              <a href="https://biodyn-ai.github.io/scgpt-atlas/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                scGPT Atlas
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="space-y-4">
         <h2 className="text-xl font-semibold text-gray-200">Methods</h2>
         <div className="bg-gray-900/50 rounded-xl border border-gray-800 p-6 space-y-3 text-gray-400 leading-relaxed">
           <p>
